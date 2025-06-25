@@ -16,6 +16,7 @@ def on_forever():
         music._play_default_background(music.built_in_playable_melody(Melodies.POWER_DOWN),
             music.PlaybackMode.UNTIL_DONE)
         basic.clear_screen()
+
 basic.forever(on_forever)
 
 def on_forever2():
